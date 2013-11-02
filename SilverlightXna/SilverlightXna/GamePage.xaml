@@ -1,0 +1,74 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SilverlightXna.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="LandscapeLeft"
+    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="800"
+    shell:SystemTray.IsVisible="False">
+    
+    <!--No XAML content is required as the page is rendered entirely with the XNA Framework-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="80"/>
+        </Grid.ColumnDefinitions>
+
+
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="480">
+            <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0">
+                <Button Content="a" Margin="0, 4, 0, 4" Click="ButtonInput_Click" CommandParameter="a" Foreground="White" BorderBrush="White"/>
+                <Button Content="i" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="i" Foreground="White" BorderBrush="White"/>
+                <Button Content="u" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="u" Foreground="White" BorderBrush="White"/>
+                <Button Content="e" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="e" Foreground="White" BorderBrush="White"/>
+                <Button Content="o" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="o" Foreground="White" BorderBrush="White"/>
+                <Button Content="g" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="g" Foreground="White" BorderBrush="White"/>
+
+                <Button Content="d" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="d" Foreground="White" BorderBrush="White"/>
+                <Button Content="b" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="b" Foreground="White" BorderBrush="White"/>
+                <Button Content="p" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="p" Foreground="White" BorderBrush="White"/>
+                <Button Content="f" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="f" Foreground="White" BorderBrush="White"/>
+                <Button Content="z" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="z" Foreground="White" BorderBrush="White"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="1">
+            <!--<Button Content="."/>-->
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="2">
+         <ScrollViewer VerticalScrollBarVisibility="Visible" Height="480">
+            <StackPanel Orientation="Vertical" >
+                    <Button Content="k" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="k" Foreground="White" BorderBrush="White"/>
+                    <Button Content="s" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="s" Foreground="White" BorderBrush="White"/>
+                    <Button Content="t" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="t" Foreground="White" BorderBrush="White"/>
+                    <Button Content="n" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="n" Foreground="White" BorderBrush="White"/>
+                    <Button Content="h" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="h" Foreground="White" BorderBrush="White"/>
+                    <Button Content="m" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="m" Foreground="White" BorderBrush="White"/>
+                    <Button Content="y" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="y" Foreground="White" BorderBrush="White"/>
+                    <Button Content="r" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="r" Foreground="White" BorderBrush="White"/>
+                    <Button Content="w" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="w" Foreground="White" BorderBrush="White"/>
+
+                    <Button Content="g" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="g" Foreground="White" BorderBrush="White"/>
+                    <Button Content="d" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="d" Foreground="White" BorderBrush="White"/>
+                    <Button Content="b" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="b" Foreground="White" BorderBrush="White"/>
+                    <Button Content="p" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="p" Foreground="White" BorderBrush="White"/>
+                    <Button Content="f" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="f" Foreground="White" BorderBrush="White"/>
+                    <Button Content="z" Margin="0, 4, 0, 4" Click="ButtonInput_Click"  CommandParameter="z" Foreground="White" BorderBrush="White"/>
+                </StackPanel>
+        </ScrollViewer>
+        </StackPanel>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,19 @@
+*.suo
+*.user
+#bin
+#obj
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Click-Once directory
+publish/
